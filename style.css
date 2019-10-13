@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: black;
     color: white;
@@ -7,14 +10,66 @@ body {
 }
 
 header {
-    background: black;
     padding: 20px;
 }
+.bg-image-header {
+  
+    background-image: linear-gradient(rgba(21, 165, 181, 0.8), rgba(30, 118, 133, 0.8)), url("img/alphabets-close-up-connection-532173.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+}
 
-section {
+.front {
+text-align: center;
+}
+
+.logo {
+    letter-spacing: -1px;
+    font-weight: 100;
+    color:#FB7C8C;
+}
+
+.front-paragraph {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.front-text {
+    font-weight: 100;
+    color:#FB7C8C;
+    text-transform: uppercase;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li {
+display: inline-block;
+margin-left: 20px;
+padding: 2px;
+}
+
+li:hover {
+    border-bottom: 1px solid #FB7C8C; 
+}
+
+li:first-child {
+    margin-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.feature-box {
     background: white;
     color:gray;
     padding: 20px;
+    display: flex;
 }
 
 footer {
