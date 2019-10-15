@@ -116,16 +116,64 @@ body, html {
 
 .feature-box {
     background: white;
-    color: gray;
+    //color: gray;
     padding: 20px;
     display: flex;
     height: 100vh;
 }
 .one {
     background: #FB7C8C;
+    color:#444;
+    text-transform: uppercase;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align:center;
+}
+.one div {
+    width:50%;
+    font-size:1.6em;
+    line-height: 1.5em;
+   // letter-spacing: 0.1em;
+    //word-spacing: 0.1em;
+   
+}
+.one a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.one button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+.one button:hover, .one a:hover {
+
+        background-color: #555;
+        color: white;
+   
 }
 .two {
     background: #CCC;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align:center;
+}
+.two a {
+    text-decoration:none;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;;
 }
 .three {
     background: #EEE;
@@ -148,4 +196,7 @@ footer {
     background: #666;
     padding: 20px;
     text-align:center;
+}
+.fa.fa-github {
+    font-size: 5em;
 }
