@@ -24,6 +24,8 @@ body, html {
     display: block;
     padding: 1em;
     transition: 0.5s;
+    z-index: 2;
+
 }
 
 .topnav a:hover {
