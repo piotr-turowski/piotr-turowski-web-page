@@ -45,9 +45,15 @@ body, html {
         float: right;
     }
 
+    .topnav.responsive {
+     position: relative;
+        
+    }
+
     .topnav.responsive a {
         display: block;
         float: none;
+        text-align: left;
     }
 
     .topnav.responsive a.icon {
@@ -57,7 +63,6 @@ body, html {
     }
 
 }
-
 
 .bg-image-header {
 
@@ -85,7 +90,6 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
     line-height: 3rem;
-    ;
 }
 
 .front .logo {
@@ -110,7 +114,6 @@ body, html {
     font-size: 3rem;
 }
 
-
 .feature-box {
     background: white;
     color: gray;
@@ -128,7 +131,17 @@ body, html {
     background: #EEE;
 }
 .four {
-    background: #999;
+    background: #ff6361;
+}
+.five {
+   
+    background: #0e2e3b;
+}
+.six {
+    background: #7db9b3;
+}
+.seven {
+    background: #166678;
 }
 
 footer {

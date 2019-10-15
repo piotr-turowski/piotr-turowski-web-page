@@ -14,10 +14,10 @@ icon.addEventListener('click', function () {
     }
 });
 
-window.addEventListener('scroll',function(){
-    if(window.pageYOffset > sticky){
-    topnav.classList.add('sticky');
+window.addEventListener('scroll', function () {
+    if (window.pageYOffset > sticky) {
+        topnav.classList.add('sticky');
     } else {
-    topnav.classList.remove('sticky');
+        topnav.classList.remove('sticky');
     }
 });
