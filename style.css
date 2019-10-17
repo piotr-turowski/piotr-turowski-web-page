@@ -177,6 +177,12 @@ body, html {
 }
 .three {
     background: #EEE;
+    color:#333;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align:center;
 }
 .four {
     background: #ff6361;
